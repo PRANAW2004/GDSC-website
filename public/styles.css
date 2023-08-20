@@ -1,0 +1,429 @@
+html,body{
+    overflow-x: hidden;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-direction: column;
+}
+.nav1{
+    display: inline-block;
+    margin-right: 3rem;
+    font-family: "Monteserrat",sans-serif;
+}
+.landing-image{
+    height:300px;
+    margin-left: 3rem;
+}
+.nav-link{
+    font-size: 1.2rem;;
+    cursor: pointer;
+}
+.whole-nav{
+    margin-right:10rem;
+}
+.navbar-toggler-icon{
+    float: right;
+}
+.brand{
+    font-family: "Monteserrat",sans-serif;
+    margin-left: 1.6rem;
+}
+.logo{
+    height: 10rem;
+    width: 30rem;
+}
+.gdsc-logo1{
+    position: relative;
+    left: -25rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 7rem;
+    width: 100%;
+    justify-content: center;
+}
+.about-h1{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+}
+.about-h1 h1{
+    font-family: "Montserrat-Bold",sans-serif;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content p{
+    width: 40rem;
+    max-width: 100%;
+}
+.about p{
+    width: 40rem;
+    color: grey;
+    font-size: 1.3rem;
+    font-family: "Montserrat-Thin",sans-serif;
+}
+
+#anchor-arrow{
+    text-decoration: none;
+    color:black;
+}
+
+.fa-arrow-down{
+    cursor: pointer;
+}
+.info1,.team,.aim,.join,.events{
+    text-align: center;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+    /* margin-top: 6rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* .aim{
+    text-align: center;
+} */
+.aim p, .team p, .join p, .contact p, .events p{
+    width:40rem;
+    /* margin-left: 28rem;    */
+    line-height: 2;
+    word-spacing: 1px;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    color: grey;
+    max-width: 100%;
+}
+.contact-icon{
+    /* padding-top: 3rem; */
+    cursor: pointer;
+    height: 7rem;
+    width: 7rem;
+}
+.row1 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 36px;
+    margin: 1rem;
+}
+.row2 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 36px;
+    /* margin-right: 2rem; */
+    margin: 1rem;
+}
+.contact{
+    /* margin-bottom: 4rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event1{
+    text-align: center;
+}
+/* .row{
+    display:
+} */
+.event1 h1{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.event1 .card{
+    margin-left: 10rem;
+    width: 23rem;
+}
+@media screen and (max-width: 1080px){
+    .about{
+    }
+    .about-content{
+        flex-wrap: nowrap;
+    }
+    .about h1{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .gdsc-logo1{
+        height: 5rem;
+        width: 20rem;
+    }
+    .about p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    /* Navbar Logo */
+    .logo{
+        height: 7rem;
+        width: 17rem;
+        margin-left: -1rem;
+    }
+    .landing-image{
+        margin-left: 0rem;
+    }
+    #downarrow{
+        display: none;
+    }
+    .aim p,.team p,.join p,.events p, .contact p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .contact{
+        margin-bottom: 4rem;
+    }
+    .brand{
+        font-size: 1rem;
+    }
+
+}
+
+/* Team Page CSS */
+
+#teamh1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:20rem;
+    margin-left:10rem;
+}
+#teamh4{
+     margin-left :10rem;
+}
+.divteam,#imgteam{
+    display:inline-block;
+   
+}
+#imgteam{
+    float:right;
+    margin-top: 7rem;
+    margin-right: 7rem;
+}
+#downarrow1{
+    display:block;
+    position: absolute;
+   top:50%;
+   left:48%;
+   margin-top: 17rem;
+}
+.info{
+    padding-top:25rem;
+}
+
+ #imgpranaw{
+   display: block;
+   margin:0 auto;
+   padding-top:2rem;
+   background-color: white;
+   height: 13rem;
+   width: 12rem; 
+ } 
+ #boardh2,#profilename1,#designation,#profiledesignation{
+    text-align: center;
+ }
+ #boardh2{
+    font-family:'ubuntu';
+ }
+ #profilename1,#corename{
+    padding-top:2px;
+    font-family: 'Montserrat', sans-serif;
+ }
+.core{
+    margin:2rem;
+   margin-left:5rem;
+   display: flex; 
+   flex: 2rem;
+   
+}
+
+
+#pranaw{
+    margin-top: 3rem;
+}
+.image-content{
+    height: 10rem;
+    width:10rem;
+}
+
+#profilecard{
+    width: 18rem;
+    margin-right:3rem;
+    border-radius: 30px;
+     height:27rem;
+     background-color: black;
+
+}
+#profileimg{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height:20rem;
+}
+#profilename{
+    text-align: center;
+    color: white;
+}
+#profiledesignation{
+    color: white;
+}
+#leadsh1{
+    text-align:center;
+    padding-top:5rem;
+    font-family:'ubuntu'
+}
+
+/* team page mobile screen */
+@media screen and (max-width:1080px)
+{
+
+    .core{
+        display:block;
+       
+    }
+    #teamh1{
+       margin-left:2rem;
+       margin-top:  7rem;
+       font-size: 25x;
+    
+    }
+    #teamh4{
+        margin-left:2rem;
+        
+    }
+    #imgteam{
+        width:15rem;
+        margin-top:5rem;
+        margin-right:5rem;
+
+    }
+    #downarrow1{
+        display:none;
+    }
+    #profilecard{
+        margin-left:-1.5rem;
+        margin-top:50px;
+        height:23rem;
+        background-color: black;
+        border-radius:50px;
+    }
+    #profileimg{
+        height:17rem;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    #profilename,#profiledesignation{
+        color:white;
+    }
+}
+
+/* Events Page */
+
+.event-main1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event-main-body{
+    margin-top: 0;
+}
+.event1 h1{
+    font-family: "ubuntu";
+}
+
+.event1 .eventh1{
+    font-size: 5rem;
+    color: grey;
+}
+
+.event h3,.event1 h4{
+    font-family: "Montserrat",sans-serif;
+}
+.card{
+    margin-right: -4rem;
+    margin-bottom: 4rem;
+    border:1px solid black;
+    border-radius: 36px;
+    height: 35rem;
+}
+#card-header1{
+    background-color: black;
+    color: white;
+    border-radius: 36px;
+    height: 20rem;
+}
+#card-body1{
+    background-color: white;
+    border-radius: 100px;
+    height: 10rem;
+}
+#card-body1 h3{
+    color: red;
+}
+#card:hover{
+    position: relative;
+    bottom: 1px;
+}
+@media  screen and (max-width: 1080px) {
+    .event-main1{
+        margin-left: -9.5rem;
+    }
+    .card{
+        margin-left: -10rem;
+        display: flex;
+        justify-content: center;
+    }
+    .event1 h1,.event1 h3,.event1 h4{
+        font-size: 1.5rem;
+    }
+    .event1 .eventh1{
+        font-size: 3rem;
+        font-family: "ubuntu";
+    }
+
+}
+
+/* Videos Page */
+
+#videosh1{
+    text-align:center;
+    font-family: 'Montserrat','sans-serif';
+    margin-top:3rem;
+}
+.divmsg{
+    width:380px;
+    background-color: black;
+    height:fit-content;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+     text-align:center;
+    color: white;
+   border-radius: 20px;
+ margin-top:7rem;
+ font-family:'ubuntu';
+}
+#stlogo{
+    padding-top: 3rem;
+    
+}
+.divstlogo{
+  text-align: center;
+}
